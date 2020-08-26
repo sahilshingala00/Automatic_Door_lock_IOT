@@ -1,0 +1,8 @@
+The basic idea behind the working of door lock lies in the interpretationofthe
+dataorASCIIcharacterssentbytheAndroid phonebymeansofthedevelopedapp.
+Tointerpretthedatasentby thephone,firstlyaBluetoothmodule(HC-05)whichis
+configured bydefaultat abaudrate o f9600 is connected to the Aurdinowhich isalso
+configuredatthesamebaudrate.Thedatawhichisbeen receivedbytheHC-05is
+thengiventotheAurdino (UNO),which understandsinASCIIformat,now
+dependinguponthereceivedset of character operations are performed as servo
+motor rotate in particular angle to open or close door.  
